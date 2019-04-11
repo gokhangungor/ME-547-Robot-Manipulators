@@ -1,0 +1,11 @@
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\bin\Debug\COM Port Terminal.exe.config
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COM Port Terminal.exe
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COM Port Terminal.xml
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\bin\Debug\COM Port Terminal.exe
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\bin\Debug\COM Port Terminal.pdb
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\bin\Debug\COM Port Terminal.xml
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COMPortTerminal.MainForm.resources
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COMPortTerminal.Resources.resources
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COMPortTerminal.PortSettingsDialog.resources
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\ComPortTerminal.vbproj.GenerateResource.Cache
+C:\Users\a5akhtar\Desktop\com_port_terminal_vb\obj\Debug\COM Port Terminal.pdb

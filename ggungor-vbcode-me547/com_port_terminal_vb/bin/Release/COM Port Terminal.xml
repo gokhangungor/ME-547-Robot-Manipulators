@@ -1,0 +1,304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+COMPortTerminal
+</name>
+</assembly>
+<members>
+<member name="M:COMPortTerminal.ComPorts.CloseComPort(System.IO.Ports.SerialPort)">
+	<summary>
+ If the COM port is open, close it.
+ </summary>
+	<param name="portToClose"> the SerialPort object to close </param>
+</member><member name="M:COMPortTerminal.ComPorts.DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+	<summary>
+ Called when data is received on the COM port.
+ Reads and displays the data.
+ See FindPorts for the AddHandler statement for this routine.
+ </summary>
+</member><member name="M:COMPortTerminal.ComPorts.DisplayException(System.String,System.Exception)">
+	<summary>
+ Provide a central mechanism for displaying exception information.
+ Display a message that describes the exception.
+ </summary>
+	<param name="ex"> The exception </param>
+	<param name="moduleName"> the module where the exception was raised. </param>
+</member><member name="M:COMPortTerminal.ComPorts.ErrorReceived(System.Object,System.IO.Ports.SerialErrorReceivedEventArgs)">
+	<summary>
+ Respond to error events.
+ </summary>
+</member><member name="M:COMPortTerminal.ComPorts.FindComPorts">
+	<summary>
+ Find the PC's COM ports and store parameters for each port.
+ Use saved parameters if possible, otherwise use default values.  
+ </summary>
+	<remarks> 
+ The ports can change if a USB/COM-port converter is attached or removed,
+ so this routine may need to run multiple times.
+ </remarks>
+</member><member name="M:COMPortTerminal.ComPorts.OpenComPort">
+	<summary>
+ Open the SerialPort object selectedPort.
+ If open, close the SerialPort object previousPort.
+ </summary>
+</member><member name="M:COMPortTerminal.ComPorts.WriteCompleted(System.IAsyncResult)">
+	<summary>
+  Executes when WriteToComPortDelegate1 completes.
+ </summary>
+	<param name="ar"> the value returned by the delegate's BeginInvoke method </param>
+</member><member name="M:COMPortTerminal.ComPorts.WriteToComPort(System.String)">
+	<summary>
+ Write a string to the SerialPort object selectedPort.
+ </summary>
+	<param name="textToWrite"> A string to write </param>
+</member><member name="T:COMPortTerminal.ComPorts">
+	<summary>
+ Routines for finding and accessing COM ports.
+ </summary>
+</member><member name="P:COMPortTerminal.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:COMPortTerminal.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:COMPortTerminal.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:COMPortTerminal.MainForm.AccessForm(System.String,System.String,System.Drawing.Color)">
+	<summary> 
+ Perform functions on the application's form.
+ Used to access the form from a different thread.
+ See AccessFormMarshal().
+ </summary>
+	<param name="action"> a string that names the action to perform on the form </param>
+	<param name="formText"> text that the form displays </param>
+	<param name="textColor"> a system color for displaying text </param>
+</member><member name="M:COMPortTerminal.MainForm.AccessFormMarshal(System.String,System.String,System.Drawing.Color)">
+	<summary>
+ Enables accessing the form from another thread.
+ The parameters match those of AccessForm() 
+ </summary>
+	<param name="action"> a string that names the action to perform on the form </param>
+	<param name="formText"> text that the form displays </param>
+	<param name="textColor"> a system color for displaying text </param>
+</member><member name="M:COMPortTerminal.MainForm.DisplayCurrentSettings">
+	<summary>
+ Display the current port parameters on the form.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.DisplayException(System.String,System.Exception)">
+	<summary>
+ Provide a central mechanism for displaying exception information.
+ Display a message that describes the exception.
+ </summary>
+	<param name="moduleName"> the module where the exception occurred.</param>
+	<param name="ex"> the exception </param>
+</member><member name="M:COMPortTerminal.MainForm.DisplayStatus(System.String,System.Drawing.Color)">
+	<summary>
+ Displays text in a richtextbox.
+ </summary>
+	<param name="status"> the text to display.</param>
+	<param name="textColor"> the text color. </param>
+</member><member name="M:COMPortTerminal.MainForm.GetPreferences">
+	<summary>
+ Get user preferences for the COM port and parameters.
+ See SetPreferences for more information.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.InitializeDisplayElements">
+	<summary>
+ Initialize elements on the main form.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.ProcessTextboxInput">
+	<summary>
+  Determine if the textbox's TextChanged event occurred due to new user input.
+ If yes, get the input and write it to the COM port.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.SavePreferences">
+	<summary> 
+ Save user preferences for the COM port and parameters.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.SetInitialPortParameters">
+	<summary>
+ Use stored preferences or defaults to set the initial port parameters.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.SetPortParameters(System.String,System.Int32,System.IO.Ports.Handshake)">
+	<summary>
+ Saves the passed port parameters.
+ Called when the user clicks OK on PortSettingsDialog.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.TrimTextBoxContents">
+	<summary>
+ Trim a richtextbox by removing the oldest contents.
+ </summary>
+	<remarks>
+ To trim the box while retaining any formatting applied to the retained contents,
+ create a temporary richtextbox, copy the contents to be preserved to the 
+ temporary richtextbox,and copy the temporary richtextbox back to the original richtextbox.
+ </remarks>
+</member><member name="M:COMPortTerminal.MainForm.UpdateStatusLabel(System.String)">
+	<summary>
+ Set the text in the ToolStripStatusLabel.
+ </summary>
+	<param name="status"> the text to display </param>
+</member><member name="M:COMPortTerminal.MainForm.UsePreferencesToSelectParameters">
+	<summary>
+ Set the user preferences or default values in the combo boxes and ports array
+ using stored preferences or default values.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.btnOpenOrClosePort_Click(System.Object,System.EventArgs)">
+	<summary>
+ Depending on the text displayed on the button, open or close the selected port
+ and change the button text to the opposite action.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.btnPort_Click(System.Object,System.EventArgs)">
+	<summary>
+ Look for COM ports and display them in the combo box.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.Form1_Load(System.Object,System.EventArgs)">
+	<summary>
+ Create an instance of the ComPorts class.
+ Initialize port settings and other parameters. 
+ specify behavior on events.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.MainForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Close the port if needed and save preferences.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.rtbMonitor_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ Do whatever is needed with new characters in the textbox.
+ </summary>
+</member><member name="M:COMPortTerminal.MainForm.tmrLookForPortChanges_Tick(System.Object,System.EventArgs)">
+	<summary>
+ Look for ports. If at least one is found, stop the timer and
+ select the saved port if possible or the first port.
+ This timer is enabled only when no COM ports are present.
+ </summary>
+</member><member name="T:COMPortTerminal.MainForm">
+	<summary>
+ com_port_terminal 
+ Visual Basic .NET application. Created with Visual Studio 2008.
+
+ Demonstrates communications using .NET 2.0's SerialPort class
+ Displays a text box where users can enter text to send to a COM port 
+ and view text received from a COM port.
+ 
+ The user can select a COM port, bit rate, and handshaking.
+ A ToolStripStatusLabel displays the current port settings.
+ A second text box displays error messages and other information.
+ 
+ Created using Visual Basic 2005 Express (free download from Microsoft).
+
+ By Jan Axelson
+ Version 1.2
+ This application and more information about serial ports are available at Lvr.com
+ </summary>
+	<remarks>
+ The COM port can be any RS-232 port, including USB/RS-232 converters
+ or another device (such as FTDI FT245BM) that uses COM-port drivers on the PC.
+
+ The ComPorts class stores information about the system's COM ports
+ and enables accessing them.
+
+ The PortSettingsDialog dialog box displays the system's ports and updates 
+ as needed to display the currently attached ports.
+
+ If there are no COM ports, the application searches for new ports and selects
+ one when attached.
+
+ User preferences are stored in a .settings file and retrieved when the application runs.
+
+ To connect two RS-232 ports on the same PC or different PCs, 
+ use a null-modem cable. (Cross-connect RXD to TXD, RTS to CTS, DTR to DSR.)
+
+ Each COM port can be controlled by an instance of this application, or one of the ports 
+ can be controlled by Windows Hyperterminal or another application.
+
+ Known issues:
+
+ 1. Users should avoid removing virtual COM ports that are in use.
+ Physically removing a USB virtual COM port with an open handle 
+ can terminate the application with the following error:
+
+ System.ObjectDisposedException was unhandled
+ Message="Safe handle has been closed"
+ at Microsoft.Win32.UnsafeNativeMethods.WaitCommEvent.
+
+ Application.ThreadException doesn't catch this exception.
+ AppDomain.CurrentDomain.UnhandledException can detect the exception but terminates the application. 
+
+ 2. The ToolStripStatusLabel at the bottom of the form
+ occasionally truncates to a few characters wide or less and you need to
+ restart the application to restore it. Advice welcome on this issue.
+
+ Send any comments or trouble reports to me at jan@Lvr.com 
+ </remarks>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.DisplayComPorts">
+	<summary>
+ Display available COM ports in a combo box.
+ Assumes ComPorts.FindComPorts has been run to fill the myPorts array.
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.InitializePortSettings">
+	<summary>
+ Set initial port parameters. 
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.ParameterChanged">
+	<summary>
+ Compares stored parameters with the current parameters.
+ </summary>
+	<returns>
+ True if any parameter has changed.
+ </returns>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.SavePortParameters">
+	<summary>
+ Save the current port parameters.
+ Enables learning if a parameter has changed.
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.SelectBitRate(System.Int32)">
+	<summary>
+ Select a bit rate in the combo box.
+ Does not set the bit rate for a COM port.
+ </summary>
+	<param name="bitRate"> The requested bit rate </param>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.SelectComPort(System.String)">
+	<summary>
+ Select a COM port in the combo box.
+ Does not set the selectedPort variable.
+ </summary>
+	<param name="comPortName"> A COM port name </param>
+	<returns> The index of the selected port in the combo box </returns>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.SelectHandshaking(System.IO.Ports.Handshake)">
+	<summary>
+ Sets handshaking in the combo box.
+ Does not set handshaking for a COM port.
+ </summary>
+	<param name="requestedHandshake"> the requested handshaking as a System.IO.Ports.Handshake value. </param>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.#ctor">
+	<summary>
+ Initialize port settings.
+ InitializeComponent is required by the Windows Form Designer.
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ The port parameters may have changed.
+ Make the parameters available to other modules. 
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.PortSettingsDialog_Load(System.Object,System.EventArgs)">
+	<summary>
+ Configure components in the dialog box.
+ </summary>
+</member><member name="M:COMPortTerminal.PortSettingsDialog.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Don't save any changes to the form.
+ </summary>
+</member><member name="T:COMPortTerminal.PortSettingsDialog">
+	<summary>
+ Provides a dialog box for viewing and selecting COM ports and parameters.
+ </summary>
+</member>
+</members>
+</doc>

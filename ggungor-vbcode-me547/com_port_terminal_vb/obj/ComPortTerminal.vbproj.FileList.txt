@@ -1,0 +1,24 @@
+obj\Debug\COM Port Terminal.exe
+obj\Debug\COM Port Terminal.xml
+obj\Debug\COM Port Terminal.pdb
+bin\Debug\COM Port Terminal.exe
+bin\Debug\COM Port Terminal.pdb
+bin\Debug\COM Port Terminal.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\COMPortTerminal.MainForm.resources
+obj\Debug\COMPortTerminal.Resources.resources
+obj\Debug\COMPortTerminal.PortSettingsDialog.resources
+obj\Debug\ComPortTerminal.vbproj.GenerateResource.Cache
+obj\Release\COM Port Terminal.exe
+obj\Release\COM Port Terminal.xml
+bin\Release\COM Port Terminal.exe
+bin\Release\COM Port Terminal.pdb
+bin\Release\COM Port Terminal.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\COMPortTerminal.MainForm.resources
+obj\Release\COMPortTerminal.Resources.resources
+obj\Release\COMPortTerminal.PortSettingsDialog.resources
+obj\Release\ComPortTerminal.vbproj.GenerateResource.Cache
+obj\Release\COM Port Terminal.pdb
+bin\Debug\COM Port Terminal.exe.config
+bin\Release\COM Port Terminal.exe.config

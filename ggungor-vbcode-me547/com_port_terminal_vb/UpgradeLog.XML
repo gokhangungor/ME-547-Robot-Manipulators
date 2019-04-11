@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ComPortTerminal">
+</Property><Property Name="Solution File" Value="C:\Users\a5akhtar\Desktop\com_port_terminal_vb\ComPortTerminal.sln">
+</Property><Property Name="Date" Value="Thursday, March 17, 2016">
+</Property><Property Name="Time" Value="4:41 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ComPortTerminal.sln" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\ComPortTerminal.sln">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComPortTerminal.vbproj" Description="Project file successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\ComPortTerminal.vbproj">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComPortTerminal.vbproj.user" Description="Project user file successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\ComPortTerminal.vbproj.user">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="MainForm.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\MainForm.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="MainForm.Designer.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\MainForm.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Application.Designer.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\ApplicationEvents.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\ApplicationEvents.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComPorts.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\ComPorts.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="PortSettingsDialog.Designer.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\PortSettingsDialog.Designer.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="PortSettingsDialog.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\PortSettingsDialog.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="Settings.vb" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\Settings.vb">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="app.config" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Application.myapp" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\DataSources\Settings.datasource" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\DataSources\Settings.datasource">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComDemo_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\ComDemo_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="MainForm.resx" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="PortSettingsDialog.resx" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\PortSettingsDialog.resx">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="My Project\app.manifest" Description="File successfully backed up as C:\Users\a5akhtar\Desktop\com_port_terminal_vb\Backup\My Project\app.manifest">
+</Event><Event ErrorLevel="1" Project="ComPortTerminal" Source="ComPortTerminal.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComPortTerminal.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ComPortTerminal" Source="ComPortTerminal.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ComPortTerminal.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ComPortTerminal.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ComPortTerminal" Source="ComPortTerminal.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

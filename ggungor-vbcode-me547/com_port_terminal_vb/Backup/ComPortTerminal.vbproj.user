@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastOpenVersion>8.0.50215</LastOpenVersion>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>C:\MY DOCUMENTS\spc2_alpha\comdemo\publish\|C:\MY DOCUMENTS\spc2_alpha\usbwiz\publish\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>http://www.lvr.com</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
